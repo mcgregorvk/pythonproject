@@ -1,0 +1,16 @@
+{
+   "sax_api_url":"http://192.168.129.63:8090/StreamAnalytix/service/datafabric",
+   "sax_api_token":"d17d3de2-d9cd-40a7-9969-1f742ec46eef",
+   "sax_user": "superuser",
+   "sax_pipelines":[
+      {"pipeline_prefix":["targeted","level2"]}
+   ],
+   "sax_pipelines_selective_stop": true,
+   "retryCount": "3",
+   "retrySleep_inSec": "2",
+   "log_file_name": "StopStartPipeline.log",
+   "log_formatter": "%(asctime)s %(lineno)d %(levelname)s %(funcName)s: %(message)s",
+   "log_level": "INFO",
+   "log_max_size_mb": "1",
+   "log_file_backup_counts": "2"
+}
